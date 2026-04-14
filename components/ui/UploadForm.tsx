@@ -264,7 +264,7 @@ export default function BookUploadForm() {
                             onClick={() => field.onChange(voice.id)}
                           >
                             <div className="flex gap-3">
-                              <div className="!mt-1">
+                              <div className="mt-1!">
                                 <div
                                   className={`h-4 w-4 rounded-full border border-primary flex items-center justify-center ${field.value === voice.id ? "bg-primary" : ""}`}
                                 >
@@ -317,7 +317,7 @@ export default function BookUploadForm() {
                             onClick={() => field.onChange(voice.id)}
                           >
                             <div className="flex gap-3">
-                              <div className="!mt-1">
+                              <div className="mt-1!">
                                 <div
                                   className={`h-4 w-4 rounded-full border border-primary flex items-center justify-center ${field.value === voice.id ? "bg-primary" : ""}`}
                                 >
